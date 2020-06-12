@@ -1,0 +1,156 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	height: 70px;
+	background-color: #F8F9FA;
+	padding: 0 40px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+nav{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.menu_h1{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 65px;
+}
+.menu_a{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu_a a{
+	display: flex;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 35px;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+}
+.menu_a a:hover{
+	text-decoration: underline;
+}
+.text{
+	height: 140px;
+}
+.text h1{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 34px;
+	font-family: 'Oswald', sans-serif;
+}
+.kont{
+	height: 400px;
+	display: flex;
+}
+.form{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#name{
+	width: 250px;
+	height: 40px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+#tel{
+	width: 250px;
+	height: 40px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+#email{
+	width: 509px;
+	height: 40px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+#text{
+	width: 509px;
+	height: 115px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+#submit{
+	width: 170px;
+	height: 55px;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 4px;
+	background-color: #464646;
+	margin-left: 170px;
+}
+#submit:hover{
+	transition: all 0.2s;
+	color: #464646;
+	background-color: #fff;
+}
+.footer{
+	height: 220px;
+	background-color: black;
+	display: flex;
+}
+.footer_1{
+	width: 100%;
+	justify-content: space-around;
+}
+.footer_1 h1{
+	color: #333333;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+}
+.footer_1 p{
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.contact{
+	height: 50px;
+	background-color: #333333;
+	display: flex;
+}
+.contact_email p{
+	margin-left: 20px;
+	color: #fff;
+}
+.contact_name{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 250px;
+	color: #fff;
+}
+.contact_a{
+	text-decoration: none;
+	width:100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 15px;
+}
+.contact_a a{
+	margin-left: 15px;
+}
+.contact_a img{
+	height: 20px;
+	width: 20px;
+}
